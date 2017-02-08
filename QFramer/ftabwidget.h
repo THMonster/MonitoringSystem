@@ -25,6 +25,7 @@
 
 #include <QWidget>
 #include <QStackedLayout>
+#include <QSizeGrip>
 #include"fcheckablebutton.h"
 #include"QBoxLayout"
 #include "ftitlebar.h"

@@ -67,6 +67,7 @@ void StatusPanel::initUI()
     vbox->addWidget(&titled);
     vbox->addLayout(hboxd);
     vbox->addStretch();
+    vbox->addWidget(new QSizeGrip(this), 0, Qt::AlignBottom | Qt::AlignRight);
 
     setLayout(vbox);
 }

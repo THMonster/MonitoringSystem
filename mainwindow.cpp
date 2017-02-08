@@ -49,7 +49,12 @@ void MainWindow::initData()
 void MainWindow::initUI()
 {
     centerWindow = new CenterWindow;
+//    mVBox = new QVBoxLayout;
+
+//    mVBox->addWidget(centerWindow);
+//    mVBox->addWidget(new QSizeGrip(this), 0, Qt::AlignBottom | Qt::AlignRight);
     setCentralWidget(centerWindow);
+
 //    centerWindow->getNavgationBar()->setCurrentIndex(0);
 
 //    settingMenu = new SettingMenu;

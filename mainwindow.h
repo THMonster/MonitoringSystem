@@ -33,6 +33,8 @@
 #include <QHideEvent>
 #include <QSettings>
 #include <QTimer>
+#include <QVBoxLayout>
+#include <QSizeGrip>
 
 
 class MainWindow : public FMainWindow
@@ -43,6 +45,8 @@ private:
     void initUI();
     void initConnect();
     QTimer *mTestTimer;
+    QVBoxLayout *mVBox;
+
 
 protected:
     void mouseMoveEvent(QMouseEvent *event);

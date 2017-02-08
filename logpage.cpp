@@ -28,6 +28,7 @@ void LogPage::initUI()
     mVBox = new QVBoxLayout;
     mVBox->addWidget(&title);
     mVBox->addWidget(mScrollArea);
+    mVBox->addWidget(new QSizeGrip(this), 0, Qt::AlignBottom | Qt::AlignRight);
 
     setLayout(mVBox);
 }

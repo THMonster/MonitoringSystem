@@ -344,14 +344,14 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 /* ******************QScrollBar****************** */
 
 QPushButton{
-    background-color: rgb(43, 65, 77);
-    border: none;
-    color: white;
+/*    background-color: rgb(43, 65, 77);*/
+/*    border: none;*/
+/*    color: white;*/
 }
 
 QPushButton:pressed{
-    background-color: rgb(50, 77, 92);
-    color: white;
+/*    background-color: rgb(50, 77, 92);*/
+/*  color: white;*/
 }
 
 QPushButton:disabled{
@@ -374,7 +374,7 @@ QPushButton#checkable:hover{
 QPushButton#checkable:checked{
     background-color: #E8E9EC;
     color: black;
-    border-left: 3px solid rgb(153, 204, 255);
+    border-left: 3px solid rgb(83, 178, 250);
 }
 
 QPushButton#checkable:pressed{
@@ -712,7 +712,7 @@ QLabel#version{
 }
 
 /* ******************FDialog****************** */
-
+/*
 QDialog{
     background-color: rgb(51, 79, 91);
 }
@@ -765,8 +765,8 @@ QDialog QToolButton:disabled{
     border: 1px;
 }
 
-QDialog QToolButton[popupMode="1"] { /* only for MenuButtonPopup */
-    padding-right: 0px; /* make way for the popup button */
+QDialog QToolButton[popupMode="1"] {
+    padding-right: 0px;
 }
 
 QDialog QToolButton::menu-button {
@@ -781,7 +781,7 @@ QDialog QToolButton::menu-indicator {
     image: none;
 }
 
-QDialog QToolButton:open { /* when the button has its menu open */
+QDialog QToolButton:open {
     background-color: rgb(34, 125, 155);
 }
 
@@ -822,7 +822,7 @@ QDialog QTextEdit#info{
     border: none;
 }
 
-QDialog QTabWidget::pane { /* The tab widget frame */
+QDialog QTabWidget::pane {
     border-top: 1px solid rgb(0, 0, 64);
 }
 
@@ -833,7 +833,6 @@ QDialog QTabBar::tab {
     width: 120px;
     color: white;
     font-size: 15px;
-    /*font-family: "Verdana";*/
     background-color: rgb(43, 152, 188);
 }
 
@@ -844,6 +843,7 @@ QDialog QTabBar::tab:selected{
 QDialog QTabBar::tab:hover {
     background-color: rgb(27, 118, 150);
 }
+*/
 
 /* ******************StatusPanel****************** */
 
@@ -888,3 +888,9 @@ QScrollArea {
 }
 
 /* ******************LogPage****************** */
+
+
+QSizeGrip {
+    width: 16px;
+    height: 16px;
+}

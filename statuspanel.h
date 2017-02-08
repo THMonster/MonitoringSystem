@@ -8,6 +8,7 @@
 #include <QLabel>
 #include <Qt>
 #include <QSound>
+#include <QSizeGrip>
 #include "logpage.h"
 #include "setnamedialog.h"
 

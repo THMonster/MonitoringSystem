@@ -9,6 +9,7 @@
 #include <QFile>
 #include <QApplication>
 #include <QDate>
+#include <QSizeGrip>
 
 class LogPage : public QFrame
 {

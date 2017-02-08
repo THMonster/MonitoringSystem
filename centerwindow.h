@@ -41,6 +41,7 @@ class CenterWindow : public FTabWidget
     Q_OBJECT
 private:
     QVBoxLayout *vLayout;
+    QVBoxLayout *mVBox;
 
 public:
 //    UIElement* uiElements;
